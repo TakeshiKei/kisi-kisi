@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var propinsi = ["Jawa Timur", "Jawa Tengah", "Sulawesi Selatan", "Sumatera Utara"];
+        var posisi = 1;
+        var ibukota;
+        switch(propinsi [posisi+1]){ 
+        case "Jawa Timur" :
+            ibukota = "Surabaya";
+            break;
+        case "Jawa Tengah" :
+            ibukota = "Semarang";
+            break;
+        case "Sulawesi Selatan" :
+            ibukota = "Makassar";
+            break;
+        case "Sumatera Utara" :
+            ibukota = "Medan";
+            break;
+        }
+        document.write("Ibu kota propinsi " + propinsi[posisi+1] + " adalah " + ibukota);
+        </script>
+</body>
+</html>
